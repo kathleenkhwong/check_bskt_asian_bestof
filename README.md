@@ -4,11 +4,11 @@ The author of this code is Wanqi Li (wanqi@outlook.com). This code is written to
 address must be accessed from UW campus network or VPN. Due to limited resource, the online editor not
 always available. Wanqi Li will try to keep it accessible during weekdays.
 
-This user manual assumes a basic understanding of automatic differentiation. Introduction to automatic differentiation can be found in the following book.
+This user manual assumes a basic understanding of automatic differentiation. Introduction to automatic differentiation can be found in the following book:
 
 Coleman, T. F., & Xu, W. (2016). Automatic Differentiation in MATLAB using ADMAT with Applications. Society for industrial and applied mathematics.
 
-To gain more insights into MADO, please reference the following:
+To gain more insights into MADO, please:
 
 Go to http://mado-editor.net/ and follow the 2D rotation example at https://github.com/vanchi7/mado-editor#generate-derivative-code
  
