@@ -134,8 +134,7 @@ The goal of part B is to find the memory usuage for `admat` with different numbe
 
 #### Step 0. Add profiler to code as shown below
 
-
-
+![inputb_3000_profiler](https://user-images.githubusercontent.com/31410379/29939520-17c885d2-8e5a-11e7-8537-307ce251b6bf.PNG)
 
 ---
 
@@ -151,8 +150,7 @@ For example:
 
 ![inputb_3000_100batch](https://user-images.githubusercontent.com/31410379/29938947-54ae6c2a-8e58-11e7-88dd-2f12800fe68c.PNG)
 
-![inputb_3000_profiler](https://user-images.githubusercontent.com/31410379/29938949-54b59554-8e58-11e7-9c77-1de145661495.PNG)
-
+![inputb_3000_profiler](https://user-images.githubusercontent.com/31410379/29939520-17c885d2-8e5a-11e7-8537-307ce251b6bf.PNG)
 
 #### Step 2. Sample output
 
@@ -174,7 +172,7 @@ Inputs:
 
 ![inputb_3000_50batch](https://user-images.githubusercontent.com/31410379/29938948-54aebfe0-8e58-11e7-92b4-80ad023f669f.PNG)
 
-![inputb_3000_profiler](https://user-images.githubusercontent.com/31410379/29938949-54b59554-8e58-11e7-9c77-1de145661495.PNG)
+![inputb_3000_profiler](https://user-images.githubusercontent.com/31410379/29939520-17c885d2-8e5a-11e7-8537-307ce251b6bf.PNG)
 
 Output:
 
