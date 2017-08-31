@@ -46,11 +46,11 @@ The setup of this code allows multiple inputs and outputs at the same time.
 
 ### Step 2. Sample outputs/test cases
 
-Since we have supply three inputs for `num_of_assets` in this example. We will have three sample outpus.
+Since we have supply three inputs for `num_of_assets` in this example. We will have three sample outputs.
 
 In the printed result: 
 
-Method `mado` represents the MADO reverse mode and `admat` represents ADMAT 2.0 reverse mode.
+Method `mado` is the MADO reverse mode and `admat` is the ADMAT 2.0 reverse mode.
 
 `type` is the type of option.
 
