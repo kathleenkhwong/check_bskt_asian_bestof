@@ -32,7 +32,9 @@ Go to http://mado-editor.net/ and follow the 2D rotation example at https://gith
 
 * Initialize parameters
 
-* Sample outputs/test cases
+* Sample output
+
+* Additional test case
   
 # Instructions
 
@@ -128,7 +130,10 @@ Below shows the sample outputs for basket options and best of Asian options with
 
 ## B. Memory Usage (Experiment 2 in the essay)
 
+The goal of part B is to find the memory usuage for `admat` with different number of batches, i.e. 100 mcpaths with 100 batches (structured: path-by-path), 100 mcpaths with 50 batches (structured), or 100 mcpaths with 1 batch (unstructured/plain reverse mode). As mentioned earlier, MADO is insensitive to `num_of_batches`. The memory usage of MADO should not change when changing `num_of_batches`. Therefore, the focus of this experiment is only on `admat`. 
+
 #### Step 0. Add profiler to code as shown below
+
 
 
 
@@ -136,4 +141,33 @@ Below shows the sample outputs for basket options and best of Asian options with
 
 #### Step 1. Initialize Parameters
 
-#### Step 2. Sample outputs/test cases
+Basically this step is the same as Step 1 in the previous section. Unlike the previous example, we can only supply one input for each parameter when using profiler. 
+
+For example:
+
+`opt_types` represents type of options, i.e. basket options, Asian options, and best of Asian options. But you should only supply one input for each parameter when using profiler, therefore the input should look like the example shown in the figure below. Example: opt_types = {`bskt`} will output results only for basket options. 
+
+`num_of_assets` represents number of assets. Again, you should only supply one input for each parameter when using profiler, i.e. `num_of_assets` = [3000].
+
+
+
+
+
+
+
+#### Step 2. Sample output
+
+This example shows the result for 100 Monte Carlo instances with 100 batches.
+
+Below shows the sample output (peak memory) for the basket option with 3000 assets.
+
+
+#### Step 3. Additional test case
+
+This example shows the result for 100 Monte Carlo instances with 50 batches. 
+
+Below shows the sample output (peak memory) for the basket option with 3000 assets.
+
+Inputs:
+
+Output:
