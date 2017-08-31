@@ -132,7 +132,7 @@ Below shows the sample outputs for basket options and best of Asian options with
 
 The goal of part B is to find the memory usuage for `admat` with different number of batches, i.e. 100 mcpaths with 100 batches (structured: path-by-path), 100 mcpaths with 50 batches (structured), or 100 mcpaths with 1 batch (unstructured/plain reverse mode). As mentioned earlier, MADO is insensitive to `num_of_batches`. The memory usage of MADO should not change when changing `num_of_batches`. Therefore, the focus of this experiment is only on `admat`. 
 
-#### Step 0. Add profiler to code as shown below
+#### Step 0. Add `profiler` to the code as shown below
 
 ![inputb_3000_profiler](https://user-images.githubusercontent.com/31410379/29939520-17c885d2-8e5a-11e7-8537-307ce251b6bf.PNG)
 
