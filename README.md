@@ -14,6 +14,8 @@ Go to http://mado-editor.net/ and follow the 2D rotation example at https://gith
  
 # Table of Contents
 
+## A. Time Ratio Only (Experiment 3 in the essay)
+
 ### 1. Test cases under 1000 assets
 
 * Initialize parameters
@@ -25,12 +27,16 @@ Go to http://mado-editor.net/ and follow the 2D rotation example at https://gith
 * Initialize parameters
 
 * Sample outputs/test cases
+
+## B. Memory Usage (Experiment 2 in the essay)
   
 # Instructions
 
-## 1. Test cases under 1000 assets
+## A. Experiment 3 (Time Ratio Only)
 
-### Step 1. Initialize Parameters
+### 1. Test cases under 1000 assets
+
+#### Step 1. Initialize Parameters
 
 The setup of this code allows multiple inputs and outputs at the same time. 
 
@@ -44,7 +50,7 @@ The setup of this code allows multiple inputs and outputs at the same time.
 
 `num_of_assets` represents number of assets. You can supply multiple number of assets, i.e. `num_of_assets` = [10 100 500].
 
-### Step 2. Sample outputs/test cases
+#### Step 2. Sample outputs/test cases
 
 Since we have supply three inputs for `num_of_assets` in this example. We will have three sample outputs.
 
