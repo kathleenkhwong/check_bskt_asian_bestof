@@ -1,4 +1,4 @@
-# How to run `check_bskt_asian_bestof` (for Time Ratio/Experiment 3)
+# How to run `check_bskt_asian_bestof` 
 
 The author of this code is Wanqi Li (wanqi@outlook.com). This code is written to test ADMAT 2.0 and MADO on finding gradients for basket options, Asian options, and best of Asian options. In order to run it, you will need jacobianst.m, mado_r_mc_option_price_by_path.m, and MATLAB 2016b or later. The AD compiler can be accessed with online mado-editor at http://129.97.84.51:8080/editor-uw.html. This
 address must be accessed from UW campus network or VPN. Due to limited resource, the online editor not
