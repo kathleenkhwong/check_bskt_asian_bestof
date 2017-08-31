@@ -29,10 +29,14 @@ Go to http://mado-editor.net/ and follow the 2D rotation example at https://gith
 * Sample outputs/test cases
 
 ## B. Memory Usage (Experiment 2 in the essay)
+
+* Initialize parameters
+
+* Sample outputs/test cases
   
 # Instructions
 
-## A. Experiment 3 (Time Ratio Only)
+## A. Time Ratio Only (Experiment 3 in the essay)
 
 ### 1. Test cases for 1000 or less assets
 
@@ -88,9 +92,9 @@ Below shows the sample output for all three options with 500 assets.
 
 ---
 
-## 2. Test cases for 1000 or more assets
+### 2. Test cases for 1000 or more assets
 
-### Step 1. Initialize Parameters
+#### Step 1. Initialize Parameters
 
 Basically this step is the same as Step 1 in the previous section. Since the testing machine is out of memory for Asian options with 1000 assets or more, it is easier to run just basket options and best of Asian options only for 1000 or more assets.
 
@@ -102,7 +106,7 @@ For example:
 
 ![inputs_1000assetsplus](https://user-images.githubusercontent.com/31410379/29929136-b210c842-8e38-11e7-96f2-b1f4eb9035eb.PNG)
 
-### Step 2. Sample outputs/test cases
+#### Step 2. Sample outputs/test cases
 
 This example shows the results for 100 Monte Carlo instances with 100 batches.
 
@@ -122,3 +126,8 @@ Below shows the sample outputs for basket options and best of Asian options with
 
 ![output3000](https://user-images.githubusercontent.com/31410379/29931901-ab69cfb8-8e40-11e7-9f2e-af135e6464d0.PNG)
 
+## B. Memory Usage (Experiment 2 in the essay)
+
+#### Step 1. Initialize Parameters
+
+#### Step 2. Sample outputs/test cases
