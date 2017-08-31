@@ -12,3 +12,14 @@ To gain more insights for MADO, please reference the following:
 
 Go to http://mado-editor.net/ and follow the 2D rotation example at https://github.com/vanchi7/mado-editor#generate-derivative-code
  
+# Table of Contents
+
+### 1. Inputs
+
+* Initialize parameters
+  
+### 2. Outputs
+
+* Sample outputs/test cases
+  
+
