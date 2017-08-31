@@ -160,6 +160,8 @@ This example shows the result for 100 Monte Carlo instances with 100 batches.
 
 Below shows the sample output (peak memory) for the basket option with 3000 assets.
 
+As mentioned before, the focus of this experiment is on `admat` only. Hence, we look at the peak memory of `check_bskt_asian_bestof>run_admat`.
+
 ![smalloutputb__3000_100batch](https://user-images.githubusercontent.com/31410379/29938945-54aa5586-8e58-11e7-89dd-6584137925c9.PNG)
 
 #### Step 3. Additional test case
@@ -175,6 +177,8 @@ Inputs:
 ![inputb_3000_profiler](https://user-images.githubusercontent.com/31410379/29938949-54b59554-8e58-11e7-9c77-1de145661495.PNG)
 
 Output:
+
+As mentioned before, the focus of this experiment is on `admat` only. Hence, we look at the peak memory of `check_bskt_asian_bestof>run_admat`.
 
 ![smalloutputb__3000_50batch](https://user-images.githubusercontent.com/31410379/29938946-54acfb60-8e58-11e7-882c-47cb920e9072.PNG)
 
