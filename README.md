@@ -16,13 +16,13 @@ Go to http://mado-editor.net/ and follow the 2D rotation example at https://gith
 
 ## A. Time Ratio Only (Experiment 3 in the essay)
 
-### 1. Test cases under 1000 assets
+### 1. Test cases for 1000 or less assets
 
 * Initialize parameters
 
 * Sample outputs/test cases
   
-### 2. Test cases 1000 or more assets
+### 2. Test cases for 1000 or more assets
 
 * Initialize parameters
 
@@ -34,7 +34,7 @@ Go to http://mado-editor.net/ and follow the 2D rotation example at https://gith
 
 ## A. Experiment 3 (Time Ratio Only)
 
-### 1. Test cases under 1000 assets
+### 1. Test cases for 1000 or less assets
 
 #### Step 1. Initialize Parameters
 
@@ -88,7 +88,7 @@ Below shows the sample output for all three options with 500 assets.
 
 ---
 
-## 2. Test cases with 1000 or more assets
+## 2. Test cases for 1000 or more assets
 
 ### Step 1. Initialize Parameters
 
