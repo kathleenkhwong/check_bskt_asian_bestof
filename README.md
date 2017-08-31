@@ -106,19 +106,19 @@ For example:
 
 This example shows the results for 100 Monte Carlo instances with 100 batches.
 
-Below shows the sample outputs for all basket options and best of Asian options with 1000 assets.
+Below shows the sample outputs for basket options and best of Asian options with 1000 assets.
 
 ![output1000](https://user-images.githubusercontent.com/31410379/29931903-ab7bd91a-8e40-11e7-8814-8b2e679a52fb.PNG)
 
 ---
 
-Below shows the sample outputs for all basket options and best of Asian options with 2000 assets.
+Below shows the sample outputs for basket options and best of Asian options with 2000 assets.
 
 ![output2000](https://user-images.githubusercontent.com/31410379/29931902-ab7665b6-8e40-11e7-8c63-2f053dfddd26.PNG)
 
 ---
 
-Below shows the sample outputs for all basket options and best of Asian options with 3000 assets.
+Below shows the sample outputs for basket options and best of Asian options with 3000 assets.
 
 ![output3000](https://user-images.githubusercontent.com/31410379/29931901-ab69cfb8-8e40-11e7-9f2e-af135e6464d0.PNG)
 
