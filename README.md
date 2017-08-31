@@ -22,7 +22,7 @@ Go to http://mado-editor.net/ and follow the 2D rotation example at https://gith
 
 * Sample outputs/test cases
   
-### 2. Test cases equal to or more than 1000 assets
+### 2. Test cases 1000 or more assets
 
 * Initialize parameters
 
@@ -68,9 +68,9 @@ Method `mado` is the MADO reverse mode and `admat` is the ADMAT 2.0 reverse mode
 
 `diff. d` is the difference between the derivative produced by MADO/ADMAT and the exact solution.
 
-This example shows the result for 100 Monte Carlo instances with 100 batches.
+This example shows the results for 100 Monte Carlo instances with 100 batches.
 
-Below shows the sample output for all three options with 10 assets.
+Below shows the sample outputs for all three options with 10 assets.
 
 ![output10](https://user-images.githubusercontent.com/31410379/29929137-b21136ba-8e38-11e7-9e15-ecc1322afb03.PNG)
 
@@ -88,10 +88,37 @@ Below shows the sample output for all three options with 500 assets.
 
 ---
 
-## 2. Test cases equal to or more than 1000 assets
+## 2. Test cases with 1000 or more assets
 
 ### Step 1. Initialize Parameters
+
+Basically this step is the same as Step 1 in the previous section. Since the testing machine is out of memory for Asian options with 1000 assets or more, it is easier to run just basket options and best of Asian options only for 1000 or more assets.
+
+For example:
+
+`opt_types` represents type of options, i.e. basket options, Asian options, and best of Asian options. Inputs should look like the example shown in the figure below. Example: opt_types = {`bskt`, `bestof`} will output results for only these two options. 
+
+`num_of_assets` represents number of assets. You can supply multiple number of assets, i.e. `num_of_assets` = [1000 2000 3000].
 
 ![inputs_1000assetsplus](https://user-images.githubusercontent.com/31410379/29929136-b210c842-8e38-11e7-96f2-b1f4eb9035eb.PNG)
 
 ### Step 2. Sample outputs/test cases
+
+This example shows the results for 100 Monte Carlo instances with 100 batches.
+
+Below shows the sample outputs for all basket options and best of Asian options with 1000 assets.
+
+![output1000](https://user-images.githubusercontent.com/31410379/29931903-ab7bd91a-8e40-11e7-8814-8b2e679a52fb.PNG)
+
+---
+
+Below shows the sample outputs for all basket options and best of Asian options with 2000 assets.
+
+![output2000](https://user-images.githubusercontent.com/31410379/29931902-ab7665b6-8e40-11e7-8c63-2f053dfddd26.PNG)
+
+---
+
+Below shows the sample outputs for all basket options and best of Asian options with 3000 assets.
+
+![output3000](https://user-images.githubusercontent.com/31410379/29931901-ab69cfb8-8e40-11e7-9f2e-af135e6464d0.PNG)
+
