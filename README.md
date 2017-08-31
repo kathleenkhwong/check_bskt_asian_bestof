@@ -128,6 +128,12 @@ Below shows the sample outputs for basket options and best of Asian options with
 
 ## B. Memory Usage (Experiment 2 in the essay)
 
+#### Step 0. Add profiler to code as shown below
+
+
+
+---
+
 #### Step 1. Initialize Parameters
 
 #### Step 2. Sample outputs/test cases
