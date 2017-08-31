@@ -149,10 +149,9 @@ For example:
 
 `num_of_assets` represents number of assets. Again, you should only supply one input for each parameter when using profiler, i.e. `num_of_assets` = [3000].
 
+![inputb_3000_100batch](https://user-images.githubusercontent.com/31410379/29938947-54ae6c2a-8e58-11e7-88dd-2f12800fe68c.PNG)
 
-
-
-
+![inputb_3000_profiler](https://user-images.githubusercontent.com/31410379/29938949-54b59554-8e58-11e7-9c77-1de145661495.PNG)
 
 
 #### Step 2. Sample output
@@ -161,6 +160,7 @@ This example shows the result for 100 Monte Carlo instances with 100 batches.
 
 Below shows the sample output (peak memory) for the basket option with 3000 assets.
 
+![smalloutputb__3000_100batch](https://user-images.githubusercontent.com/31410379/29938945-54aa5586-8e58-11e7-89dd-6584137925c9.PNG)
 
 #### Step 3. Additional test case
 
@@ -170,4 +170,11 @@ Below shows the sample output (peak memory) for the basket option with 3000 asse
 
 Inputs:
 
+![inputb_3000_50batch](https://user-images.githubusercontent.com/31410379/29938948-54aebfe0-8e58-11e7-92b4-80ad023f669f.PNG)
+
+![inputb_3000_profiler](https://user-images.githubusercontent.com/31410379/29938949-54b59554-8e58-11e7-9c77-1de145661495.PNG)
+
 Output:
+
+![smalloutputb__3000_50batch](https://user-images.githubusercontent.com/31410379/29938946-54acfb60-8e58-11e7-882c-47cb920e9072.PNG)
+
